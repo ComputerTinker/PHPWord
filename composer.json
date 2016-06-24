@@ -6,7 +6,7 @@
         "docx", "OOXML", "OpenXML", "Office Open XML", "ISO IEC 29500", "WordprocessingML",
         "RTF", "Rich Text Format", "doc", "odt", "OpenDocument", "PDF", "HTML"
     ],
-    "homepage": "http://phpoffice.github.io",
+    "homepage": "https://github.com/ComputerTinker/PHPWord/",
     "type": "library",
     "license": "LGPL-3.0",
     "authors": [
@@ -29,8 +29,15 @@
         {
             "name": "Roman Syroeshko",
             "homepage": "http://ru.linkedin.com/pub/roman-syroeshko/34/a53/994/"
+        },
+        {
+            "name": "Russ Kenny",
+            "homepage": "https://computertinker.com"
         }
     ],
+    "replace": {
+        "phpoffice/phpword": "*"
+    },
     "require": {
         "php": ">=5.3.3",
         "ext-xml": "*",
